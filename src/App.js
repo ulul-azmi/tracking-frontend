@@ -19,12 +19,6 @@ class App extends Component {
             <Route exact path="/terimakasih" component={Thankyou} />
           </Switch>
         </Suspense>
-        {/* <Dashboard /> */}
-
-        {/* <div className="py-8"> */}
-        {/* <Thankyou /> */}
-        {/* <FormIncome /> */}
-        {/* </div> */}
       </div>
     );
   }
