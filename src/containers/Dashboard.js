@@ -5,8 +5,8 @@ import Sidebar from '../components/Sidebar';
 import Card from '../components/Card';
 import Image from '../assets/default_avatar_thumb.png';
 import Struk from '../assets/struk.png';
-import ModalExpense from '../components/ModalExpense';
-import ModalCharity from '../components/ModalCharity';
+// import ModalExpense from '../components/ModalExpense';
+// import ModalCharity from '../components/ModalCharity';
 
 export default class Dashboard extends Component {
   render() {
