@@ -15,7 +15,7 @@ export default class Dashboard extends Component {
         {/* Modal detail sumbangan */}
         {/* <ModalCharity /> */}
         {/* Modal Detail Pengeluaran */}
-        <ModalExpense />
+        {/* <ModalExpense /> */}
         <div className="w-1/5 bg-white">
           <Sidebar />
         </div>

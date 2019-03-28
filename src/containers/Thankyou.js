@@ -4,7 +4,7 @@ import ThankyouSvg from '../assets/thankyou.svg';
 export default class Thankyou extends Component {
   render() {
     return (
-      <div className="w-1/2 mx-auto bg-white shadow p-8 flex flex-col items-center rounded-lg">
+      <div className="w-1/2 mx-auto bg-white shadow p-8 flex flex-col items-center rounded-lg my-8">
         <div className="banner w-32 h-32 rounded-full mb-10" />
 
         <span className="block font-semibold text-2xl tracking-wide text-blue-gray-primary mb-5">
