@@ -4,3 +4,30 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.banner {
+  background-image: url('../assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+td {
+  @apply py-5;
+  @apply px-8;
+}
+
+th {
+  @apply text-another-blue-text;
+  @apply py-3;
+  @apply px-8;
+}
+
+tbody>tr:nth-child(even) {
+  @apply bg-another-blue-background;
+  @apply text-blue-500;
+}
+
+tbody>tr:nth-child(odd) {
+  @apply bg-white;
+  @apply text-blue-500;
+} 

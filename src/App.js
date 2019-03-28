@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/tailwind.css';
+import Header from './components/Header';
+// import FormIncome from './containers/FormIncome';
+// import Thankyou from './containers/Thankyou';
+import Dashboard from './containers/Dashboard';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App font-sans min-h-screen bg-blue-gray-background">
+        <Header />
+        <Dashboard />
+
+        {/* <div className="py-8"> */}
+        {/* <Thankyou /> */}
+        {/* <FormIncome /> */}
+        {/* </div> */}
       </div>
     );
   }
