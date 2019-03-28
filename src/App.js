@@ -6,6 +6,7 @@ import Header from './components/Header';
 const Dashboard = lazy(() => import('./containers/Dashboard'));
 const FormIncome = lazy(() => import('./containers/FormIncome'));
 const Thankyou = lazy(() => import('./containers/Thankyou'));
+const FormExpense = lazy(() => import('./containers/FormExpense'));
 
 class App extends Component {
   render() {
@@ -16,6 +17,11 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Dashboard} />
             <Route exact path="/konfirmasi-sumbangan" component={FormIncome} />
+            <Route
+              exact
+              path="/konfirmasi-pengeluaran"
+              component={FormExpense}
+            />
             <Route exact path="/terimakasih" component={Thankyou} />
           </Switch>
         </Suspense>
