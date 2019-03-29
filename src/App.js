@@ -7,7 +7,7 @@ const Dashboard = lazy(() => import('./containers/Dashboard'));
 const FormIncome = lazy(() => import('./containers/FormIncome'));
 const Thankyou = lazy(() => import('./containers/Thankyou'));
 const FormExpense = lazy(() => import('./containers/FormExpense'));
-
+const Login = lazy(() => import('./containers/Login'));
 class App extends Component {
   render() {
     return (
@@ -23,6 +23,7 @@ class App extends Component {
               component={FormExpense}
             />
             <Route exact path="/terimakasih" component={Thankyou} />
+            <Route exact path="/login" component={Login} />
           </Switch>
         </Suspense>
       </div>
