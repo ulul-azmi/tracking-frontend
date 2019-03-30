@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <div className="bg-white p-5 flex justify-between border-b">
       <span className="font-semibold tracking-wider text-gray-900 self-center">
-        Nama Aplikasi
+        Ulul Azmi Berbagi
       </span>
       {/* Sudah login */}
-      <div className="flex items-center">
+      {/* <div className="flex items-center">
         <img
           className="w-10 h-10 rounded-full mr-2 cursor-pointer"
           src={Image}
@@ -29,17 +29,17 @@ export default function Header() {
             d="M15.3 10.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
           />
         </svg>
-      </div>
+      </div> */}
 
       {/* Belum Login */}
-      {/* <div className="flex items-center">
+      <div className="flex items-center">
         <button
           type="button"
-          className="text-white py-2 px-4 font-semibold tracking-wide bg-another-blue-primary"
+          className="text-white py-2 px-4 font-semibold tracking-wide bg-another-blue-primary rounded-lg"
         >
-          Sign In
+          Daftar
         </button>
-      </div> */}
+      </div>
     </div>
   );
 }
