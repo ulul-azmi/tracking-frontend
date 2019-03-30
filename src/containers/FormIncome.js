@@ -314,11 +314,12 @@ export default class FormIncome extends Component {
                 Persetujuan Penggunaan Sumbangan
               </span>
               <span className="tracking-normal text-blue-gray-secondary leading-relaxed text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit veniam,
+                Silahkan centang semua pilihan yang anda inginkan ( dapat
+                memilih lebih dari satu ).
               </span>
             </div>
 
-            <div className="flex flex-col w-1/2 pl-5 ">
+            <div className="flex flex-col w-1/2 pl-5 xs:w-full sm:w-full xs:pl-0 sm:pl-0">
               {form.meta.map((meta, index) => (
                 <div className="flex items-start mb-3" key={index}>
                   {!meta.checked && (
