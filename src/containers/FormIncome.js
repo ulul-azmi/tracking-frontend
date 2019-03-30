@@ -43,6 +43,7 @@ export default class FormIncome extends Component {
       ],
     },
     preview: '',
+    loading: false,
   };
 
   toggleMeta = text => e => {
@@ -97,6 +98,8 @@ export default class FormIncome extends Component {
     const formData = new FormData();
     formData.append('image', form.image);
 
+    this.setState(prevState => ({ loading: !prevState.loading }));
+
     const {
       data: { path },
     } = await axios.post('/upload', formData, {
@@ -108,7 +111,6 @@ export default class FormIncome extends Component {
         image: path,
         meta: form.meta.reduce((carry, meta) => {
           carry[meta.code] = meta.checked;
-          console.log(carry);
           return carry;
         }, {}),
       });
@@ -116,6 +118,8 @@ export default class FormIncome extends Component {
       history.push('/terimakasih');
     } catch (err) {
       console.log(err);
+    } finally {
+      this.setState(prevState => ({ loading: !prevState.loading }));
     }
   };
 
@@ -134,7 +138,7 @@ export default class FormIncome extends Component {
   };
 
   render() {
-    const { preview, form } = this.state;
+    const { preview, form, loading } = this.state;
 
     return (
       <div className="w-1/2 mx-auto bg-white shadow p-8 flex flex-col items-center rounded-lg my-8 sm:w-4/5 xs:w-5/6">
@@ -363,7 +367,8 @@ export default class FormIncome extends Component {
               className="w-full rounded-lg bg-another-blue-primary text-white py-3 px-2 shadow"
               type="submit"
             >
-              Kirim Form pengiriman sumbangan
+              {!loading && <span>Kirim Form pengiriman sumbangan</span>}
+              {loading && <i className="fas fa-spinner text-xl fa-spin" />}
             </button>
           </div>
         </form>
