@@ -2,11 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint:fix"
-    }
-  },
+  "husky": {},
   "dependencies": {
     "axios": "0.18.0",
     "react": "^16.8.5",
