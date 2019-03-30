@@ -1,9 +1,12 @@
 /* eslint-disable */
+@import url('https://use.typekit.net/nhw3aqu.css');
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+
 
 .banner {
   background-image: url('../assets/banner.jpg');

@@ -5,7 +5,11 @@ module.exports = {
     // Some useful comment
     fontFamily: {
       ...defaultConfig.theme.fontFamily,
-      sans: ['Proxima Nova', ...defaultConfig.theme.fontFamily.sans],
+      sans: [
+        'proxima-nova',
+        'Proxima Nova',
+        ...defaultConfig.theme.fontFamily.sans,
+      ],
     },
     fill: {
       ...defaultConfig.theme.fill,
