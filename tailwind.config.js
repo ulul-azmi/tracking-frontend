@@ -59,6 +59,11 @@ module.exports = {
         100: 'rgba(0, 0, 0, 0.4)',
       },
     },
+    screens: {
+      ...defaultConfig.theme.screens,
+      xs: { min: '300px', max: '640px' },
+      sm: { min: '767px', max: '991px' },
+    },
   },
   variants: {
     // Some useful comment
