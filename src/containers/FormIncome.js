@@ -146,7 +146,7 @@ export default class FormIncome extends Component {
 
         <div className="self-start mb-5">
           <span className="font-semibold tracking-wide text-xl text-blue-gray-primary block">
-            Form Penerimaan Sumbangan
+            Form Penerimaan Donasi
           </span>
           <span className="tracking-normal text-blue-gray-secondary leading-relaxed text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{' '}

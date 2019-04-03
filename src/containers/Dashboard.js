@@ -60,7 +60,7 @@ export default class Dashboard extends Component {
                     />
                     <span className="self-center">Minseo</span>
                   </td>
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">
                     <span className="bg-blue-100 p-3 text-blue-300 shadow rounded-wide text-sm font-medium">
                       Diterima
@@ -86,7 +86,7 @@ export default class Dashboard extends Component {
                     <span className="self-center">Minseo</span>
                   </td>
 
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">
                     <span className="bg-yellow-100 p-3 text-yellow-300 shadow rounded-wide text-sm font-medium">
                       Pending
@@ -112,7 +112,7 @@ export default class Dashboard extends Component {
                     <span className="self-center">Anonymous</span>
                   </td>
 
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">
                     <span className="bg-blue-100 p-3 text-blue-300 shadow rounded-wide text-sm font-medium">
                       Diterima
@@ -138,7 +138,7 @@ export default class Dashboard extends Component {
                     <span className="self-center">Minseo</span>
                   </td>
 
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">
                     <span className="bg-red-100 p-3 text-red-300 shadow rounded-wide text-sm font-medium">
                       Ditolak
@@ -185,7 +185,7 @@ export default class Dashboard extends Component {
                     />
                     <span className="self-center">Minseo</span>
                   </td>
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">Bayar Konsumsi</td>
                   <td className="text-right">IDR 1,000,000</td>
                   <td className="text-left">
@@ -210,7 +210,7 @@ export default class Dashboard extends Component {
                     />
                     <span className="self-center">Minseo</span>
                   </td>
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">Bayar Konsumsi</td>
                   <td className="text-right">IDR 1,000,000</td>
                   <td className="text-left">
@@ -235,7 +235,7 @@ export default class Dashboard extends Component {
                     />
                     <span className="self-center">Minseo</span>
                   </td>
-                  <td className="text-left">May 04, 2019</td>
+                  <td className="text-left p-5">May 04, 2019</td>
                   <td className="text-left">Bayar Konsumsi</td>
                   <td className="text-right">IDR 1,000,000</td>
                   <td className="text-left">

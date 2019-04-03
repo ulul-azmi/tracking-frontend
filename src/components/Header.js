@@ -1,12 +1,14 @@
 import React from 'react';
 import Image from '../assets/default_avatar_thumb.png';
+import Logo from '../assets/logo.svg';
 
 export default function Header() {
   return (
     <div className="bg-white p-5 flex justify-between border-b">
-      <span className="font-semibold tracking-wider text-gray-900 self-center">
+      <img className="w-32 h-12" src={Logo} alt="Logo" />
+      {/* <span className="font-semibold tracking-wider text-gray-900 self-center">
         Ulul Azmi Berbagi
-      </span>
+      </span> */}
       {/* Sudah login */}
       {/* <div className="flex items-center">
         <img

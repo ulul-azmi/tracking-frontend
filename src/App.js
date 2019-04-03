@@ -16,7 +16,7 @@ class App extends Component {
         <Suspense fallback={<div>Loading...</div>}>
           <Switch>
             <Route exact path="/" component={Dashboard} />
-            <Route exact path="/konfirmasi-sumbangan" component={FormIncome} />
+            <Route exact path="/konfirmasi-donasi" component={FormIncome} />
             <Route
               exact
               path="/konfirmasi-pengeluaran"
